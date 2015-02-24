@@ -15,5 +15,5 @@ insert_row_aux instr row cur_row new_xs (str:xs)
                                   | str == "/n" = insert_row_aux instr row (cur_row+1) (str:new_xs) xs
                                   | True = insert_row_aux instr row cur_row (str:new_xs) xs
 
-testlist= ["hello","/n","joar","/n","my","name","is","/n","olof","raxores","/n","I ","/n","hope","that","/n",
+testlist= ["hello","/n","sven","/n","my","name","is","/n","olof","raxores","/n","I ","/n","hope","that","/n",
             "we","/n","will","meet","again","/n","someday"]
