@@ -13,7 +13,7 @@ readfileintolist file = do
 
 
 
-
+-- Det här är den användbara saken
 rows_func :: [String] -> String ->[String] -> [String]
 
 rows_func [] _ listwrows = reverse listwrows
