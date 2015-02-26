@@ -3,7 +3,7 @@
 import Data.Char
 import System.IO
 import Data.List
-
+-- * Insert, insert a string "x" into row y är den här delen core
 
 --todo comment acording to coding convention
 insertintofile :: String -> Integer -> String -> IO ()
