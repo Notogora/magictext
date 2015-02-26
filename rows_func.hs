@@ -6,7 +6,7 @@ import System.IO
 
 
 readfileWrows :: String -> IO ()
-readfileintolist file = do
+readfileWrows file = do
   contents <- readFile file
   do
     putStrLn $ show (rows_func (words contents) contents [])
